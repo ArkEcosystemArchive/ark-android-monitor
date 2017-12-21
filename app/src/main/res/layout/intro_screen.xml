@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IntroActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/intro_top_margin"
+        android:contentDescription="@string/empty"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ark_red" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_vertical_margin"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/default_vertical_margin"
+        android:textColor="@android:color/white"
+        android:text="@string/app_name"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/for_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_vertical_margin"
+        android:layout_below="@+id/app_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/default_vertical_margin"
+        android:textColor="@android:color/white"
+        android:text="@string/for_txt"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_vertical_margin"
+        android:layout_below="@+id/for_txt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/default_vertical_margin"
+        android:textColor="@android:color/white"
+        android:text="@string/android_txt"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/default_vertical_margin"
+        android:text="@string/current_version"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/intro_version_fontsize" />
+
+</RelativeLayout>

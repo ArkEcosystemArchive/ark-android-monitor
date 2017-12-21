@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/default_horizontal_margin"
+    android:layout_marginRight="@dimen/default_horizontal_margin"
+    android:layout_marginTop="@dimen/default_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.vrlcrypt.liskmonitor.fragments.BlocksFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_vertical_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/block_height"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="@string/height"
+            android:textAlignment="textStart"
+            android:textSize="@dimen/default_font_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/block_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="@string/time"
+            android:textAlignment="textStart"
+            android:textSize="@dimen/default_font_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/block_fee"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="@string/fee"
+            android:textAlignment="textStart"
+            android:textSize="@dimen/default_font_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/block_reward"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="@string/reward"
+            android:textAlignment="textStart"
+            android:textSize="@dimen/default_font_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/blocks_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvBlocks"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

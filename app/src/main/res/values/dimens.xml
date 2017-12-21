@@ -1,0 +1,21 @@
+<resources>
+    <dimen name="nav_header_vertical_spacing">6dp</dimen>
+    <dimen name="nav_header_height">130dp</dimen>
+
+    <dimen name="default_horizontal_margin">16dp</dimen>
+    <dimen name="default_vertical_margin">16dp</dimen>
+
+    <dimen name="intro_top_margin">100dp</dimen>
+
+    <dimen name="default_text_margin">16dp</dimen>
+    <dimen name="default_font_size">14sp</dimen>
+
+    <dimen name="table_item_margin_horizontal">10dp</dimen>
+
+    <dimen name="subtitle_margin_top">10dp</dimen>
+    <dimen name="subtitle_margin_bottom">10dp</dimen>
+    <dimen name="subtitle_font_size">16sp</dimen>
+
+    <dimen name="divisor_height">1px</dimen>
+    <dimen name="intro_version_fontsize">14sp</dimen>
+</resources>

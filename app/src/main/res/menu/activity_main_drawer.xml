@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/ic_home_black_36dp"
+            android:title="@string/nav_home" />
+
+        <item
+            android:id="@+id/nav_forged_blocks"
+            android:checked="true"
+            android:icon="@drawable/ic_history_black_36dp"
+            android:title="@string/nav_forged_blocks" />
+
+        <item
+            android:id="@+id/nav_latest_transactions"
+            android:checked="true"
+            android:icon="@drawable/ic_compare_arrows_black_36dp"
+            android:title="@string/nav_latest_transactions" />
+
+        <item
+            android:id="@+id/nav_peers"
+            android:icon="@drawable/ic_network_check_black_36dp"
+            android:title="@string/nav_peers" />
+        <item
+            android:id="@+id/nav_delegates"
+            android:icon="@drawable/ic_group_black_36dp"
+            android:title="@string/nav_delegates" />
+
+        <item
+            android:id="@+id/nav_votes_made"
+            android:icon="@drawable/ic_call_made_black_36dp"
+            android:title="@string/nav_votes_made" />
+
+        <item
+            android:id="@+id/nav_votes_received"
+            android:icon="@drawable/ic_call_received_black_36dp"
+            android:title="@string/nav_votes_received" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_36dp"
+            android:title="@string/nav_settings" />
+
+    </group>
+
+</menu>

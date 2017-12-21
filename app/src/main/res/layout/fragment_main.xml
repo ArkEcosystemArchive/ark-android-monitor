@@ -1,0 +1,45 @@
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:orientation="vertical"
+        tools:context=".fragments.MainFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_vertical_margin"
+            android:layout_marginLeft="@dimen/default_horizontal_margin"
+            android:layout_marginRight="@dimen/default_horizontal_margin"
+            android:layout_marginTop="@dimen/default_vertical_margin"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/layout_main_delegate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <include
+                layout="@layout/layout_main_forging"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <include
+                layout="@layout/layout_main_account"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <include
+                layout="@layout/layout_main_server"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.v4.widget.SwipeRefreshLayout>

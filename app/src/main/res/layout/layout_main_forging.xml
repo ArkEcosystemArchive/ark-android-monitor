@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/subtitle_margin_bottom"
+        android:layout_marginTop="@dimen/subtitle_margin_top"
+        android:text="@string/forging"
+        android:textSize="@dimen/subtitle_font_size"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_height="@dimen/divisor_height"
+            android:background="@color/lineColor">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/divisor_height"
+                android:layout_span="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_vertical_margin"
+            android:layout_marginEnd="@dimen/table_item_margin_horizontal"
+            android:layout_marginStart="@dimen/table_item_margin_horizontal"
+            android:layout_marginTop="@dimen/default_vertical_margin">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/forged"
+                android:textAlignment="textStart"
+                android:textSize="@dimen/default_font_size" />
+
+            <TextView
+                android:id="@+id/forgin_forged"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textAlignment="textEnd"
+                android:textSize="@dimen/default_font_size" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_height="@dimen/divisor_height"
+            android:background="@color/lineColor">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/divisor_height"
+                android:layout_span="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_vertical_margin"
+            android:layout_marginEnd="@dimen/table_item_margin_horizontal"
+            android:layout_marginStart="@dimen/table_item_margin_horizontal"
+            android:layout_marginTop="@dimen/default_vertical_margin">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/last_block_forged"
+                android:textAlignment="textStart"
+                android:textSize="@dimen/default_font_size" />
+
+            <TextView
+                android:id="@+id/delegate_last_block_forged"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="textEnd"
+                android:textSize="@dimen/default_font_size" />
+        </TableRow>
+
+        <TableRow
+            android:layout_height="@dimen/divisor_height"
+            android:background="@color/lineColor">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/divisor_height"
+                android:layout_span="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_vertical_margin"
+            android:layout_marginEnd="@dimen/table_item_margin_horizontal"
+            android:layout_marginStart="@dimen/table_item_margin_horizontal"
+            android:layout_marginTop="@dimen/default_vertical_margin">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/fees"
+                android:textAlignment="textStart"
+                android:textSize="@dimen/default_font_size" />
+
+            <TextView
+                android:id="@+id/forgin_fees"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textAlignment="textEnd"
+                android:textSize="@dimen/default_font_size" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_height="@dimen/divisor_height"
+            android:background="@color/lineColor">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/divisor_height"
+                android:layout_span="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_vertical_margin"
+            android:layout_marginEnd="@dimen/table_item_margin_horizontal"
+            android:layout_marginStart="@dimen/table_item_margin_horizontal"
+            android:layout_marginTop="@dimen/default_vertical_margin">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rewards"
+                android:textAlignment="textStart"
+                android:textSize="@dimen/default_font_size" />
+
+            <TextView
+                android:id="@+id/forging_rewards"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textAlignment="textEnd"
+                android:textSize="@dimen/default_font_size" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
